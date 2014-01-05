@@ -7,7 +7,7 @@ body {
 
 html,
 body {
-  font: 17px/1.2 'Libre Baskerville', Georgia, serif;
+  font: 17px/1.2 'Vollkorn', serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -26,7 +26,7 @@ input,
 button,
 select,
 textarea {
-  font: 17px/1.2 'Alegreya Sans', sans-serif;
+  font: 17px/1.2 'Open Sans Condensed', sans-serif;
 }
 
 h1,
@@ -36,7 +36,7 @@ h4,
 h5,
 h6 {
   text-rendering: optimizeLegibility;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   margin: 0px;
   font-weight: 700;
   line-height: 1.5;
@@ -152,7 +152,7 @@ main {
 
 span.post-meta {
   font-size: 0.8em;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #9EABB3;
 }
 
@@ -196,7 +196,7 @@ div.post-excerpt p {
     width: 80%;
     max-width: 700px;
     margin: 4rem auto;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1rem;
     color: #9EABB3;
     text-align: center;
@@ -252,7 +252,7 @@ div.post-excerpt p {
 }
 
 .post-footer .share a {
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 0.5em;
   display: inline-block;
   margin: 5px 5px 0px 0px;
