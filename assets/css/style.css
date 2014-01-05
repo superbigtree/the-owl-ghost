@@ -11,7 +11,7 @@ input,
 button,
 select,
 textarea {
-  font: 17px/1.2 'Open Sans', sans-serif;
+  font: 15px/1.2 'Open Sans', sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
