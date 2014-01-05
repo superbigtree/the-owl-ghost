@@ -70,11 +70,11 @@ p {
 
 pre code {
   font-family: Monaco, Menlo, monospace;
-  padding: 5px 10px;
-  background-color: #f8f8f8;
-  border: 1px solid #e2e2e2;
+  padding: 25px 20px;
+  background-color: #fafaf8;
   overflow: scroll;
   display: block;
+  font-size: 16px;
 }
 
 hr {
