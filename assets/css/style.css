@@ -11,7 +11,7 @@ input,
 button,
 select,
 textarea {
-  font: 17px/1.2 "Droid Sans", Georgia, serif;
+  font: 17px/1.2 "Droid Serif", Georgia, serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -33,7 +33,7 @@ h4,
 h5,
 h6 {
   text-rendering: optimizeLegibility;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0px;
   font-weight: 700;
   line-height: 1.5;
@@ -147,7 +147,7 @@ span.post-meta {
 h2.post-title,
 h1.post-title {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: -1px;
 }
 
@@ -161,7 +161,7 @@ h2.post-title a:hover {
 }
 
 div.post-excerpt p {
-  //margin-top: 15px;
+  margin-top: 0px;
 }
 
 /* tablet size */
