@@ -95,6 +95,10 @@ img {
   margin: 0px auto;
 }
 
+div.bg {
+  background-color: #353531;
+}
+
 div.bg > div.container {
   height: 100%;
 }
