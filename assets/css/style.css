@@ -62,6 +62,7 @@ a:focus {
 
 p {
   line-height: 1.4;
+  margin-top: 7px;
 }
 
 pre code {
@@ -165,7 +166,6 @@ h2.post-title a:hover {
 }
 
 div.post-excerpt p {
-  margin-top: 0px;
 }
 
 /* tablet size */
