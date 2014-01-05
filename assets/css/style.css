@@ -60,6 +60,10 @@ a:focus {
   color: #1e4062;
 }
 
+p {
+  line-height: 1.4;
+}
+
 pre code {
   font-family: Monaco, Menlo, monospace;
   padding: 5px 10px;
