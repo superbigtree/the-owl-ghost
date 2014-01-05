@@ -11,7 +11,7 @@ input,
 button,
 select,
 textarea {
-  font: 15px/1.2 'Open Sans', sans-serif;
+  font: 17px/1.2 'Open Sans', sans-serif;
   color: #444;
   -webkit-font-smoothing: antialiased;
   font-smoothing: antialiased;
@@ -172,11 +172,6 @@ div.post-excerpt p {
 
 /* tablet size */
 @media only screen and (min-width: 600px) {
-  html,
-  body {
-    font-size: 20px;
-  }
-
   .container {
     width: 540px;
     padding: 0px 20px;
