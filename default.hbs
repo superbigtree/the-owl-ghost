@@ -21,12 +21,19 @@
 {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-<div class="bg" {{#if @blog.cover}}style="background-image: url({{@blog.cover}})"{{/if}}>
+<div 
+  class="bg" 
+  style="background-image: {{#if @blog.cover}} url({{@blog.cover}}) {{else}}url(/assets/images/bg.jpg)"{{/if}}
+>
 <div class="container">
 
 <header>
   <a href="/" alt="home">
-    <img src="{{@blog.logo}}" id="logo" alt="{{@blog.title}} logo">
+    <img 
+    	src="{{#if @blog.logo}}{{@blog.logo}}{{else}}/assets/images/owl.png{{/if}}" 
+    	id="logo" 
+    	alt="{{@blog.title}} logo"
+    >
     <h1 id="logotype">{{@blog.title}}</h1>
   </a>
 </header>
