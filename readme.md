@@ -12,6 +12,9 @@ Upload a new logo and background image in the general settings section of the gh
 ## Documentation
 Refer to the Ghost docs for help customizing the theme: [docs.ghost.org](http://docs.ghost.org/)
 
+## Changelog
+See changelog.md for the version history.
+
 ## Issues
 Please submit issues at the issues queue for this project: [github.com/superbigtree/the-owl-ghost/issues](https://github.com/superbigtree/the-owl-ghost/issues)
 
