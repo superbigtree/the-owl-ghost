@@ -1,9 +1,6 @@
 # the owl.
 > a theme for Ghost.
 
-## Support development of the owl
-If you haven't already, consider purchasing this theme here: [superbigtree.com/themes/the-owl](http://superbigtree.com/themes/the-owl/)
-
 ## Install
 Put the unzipped folder into the themes folder of your project: `your-ghost-project/content/themes/`.
 
