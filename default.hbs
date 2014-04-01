@@ -23,8 +23,7 @@
 <body class="{{body_class}}">
 <div 
   class="bg" 
-  style="background-image: "{{#if @blog.cover}} url({{@blog.cover}}) {{else}}url(/assets/images/bg.jpg)"{{/if}}
->
+  style="background-image:{{#if @blog.cover}} url({{@blog.cover}}) {{else}}url(/assets/images/bg.jpg){{/if}}">
 <div class="container">
 
 <header>
