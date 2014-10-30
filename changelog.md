@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.1.0 - October 29, 2014
+- Small font/margin fixes
+
 ## v1.0.0 - October 29, 2014
 - Create author.hbs file, as well as very basic tag.hbs and home.hbs files
 - Use the `{{image}}` tag

@@ -159,15 +159,6 @@ header ul.menu li {
   header ul.menu {
     margin: 15px 0px 15px 0px;
   }
-
-  header ul.menu li {
-
-  }
-}
-
-@media only screen and (min-width: 960px) {
-  header ul.menu {
-  }
 }
 
 .posts h2,
@@ -187,7 +178,7 @@ header ul.menu li {
 }
 
 span.post-meta {
-  font-size: 0.8em;
+  font-size: 0.7em;
   color: #9EABB3;
 }
 
@@ -196,6 +187,7 @@ h1.post-title {
   font-weight: 900;
   font-size: 32px;
   letter-spacing: -1px;
+  margin-bottom: 5px;
 }
 
 h2.post-title a {
