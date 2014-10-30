@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.2.0 - October 29, 2014
+- Use {{asset}} helper for css stylesheet
+
 ## v1.1.0 - October 29, 2014
 - Small font/margin fixes
 
