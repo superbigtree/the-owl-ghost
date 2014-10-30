@@ -6,6 +6,10 @@
 
     {{! Everything inside the #post tags pulls data from the post }}
     {{#post}}
+    
+    {{#if image}}
+    <img src="{{image}}" class="post-image">
+    {{/if}}
 
     <h1 class="post-title">{{title}}</h1>
 

@@ -140,10 +140,50 @@ main {
   min-height: 100%;
 }
 
+header ul.menu {
+  margin: 10px 10px 15px 0px;
+  padding: 0px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+header ul.menu li {
+  list-style-type: none;
+  line-height: 1.5;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  header ul.menu {
+    margin: 15px 0px 15px 0px;
+  }
+
+  header ul.menu li {
+
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  header ul.menu {
+  }
+}
+
+.posts h2,
+.page-title {
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+.posts h2.post-title {
+  font-size: 25px;
+}
+
 .post {
   padding-bottom: 10px;
   border-bottom: 1px solid #efefec;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 span.post-meta {
@@ -165,6 +205,12 @@ h2.post-title a {
 h2.post-title a:hover {
   color: #121210;
   text-decoration: none;
+}
+
+img.post-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
 }
 
 div.post-excerpt p {
@@ -233,22 +279,15 @@ div.post-excerpt p {
   border-top: 1px solid #efefec
 }
 
-.post-footer .share h4 {
-  margin-bottom: 0px;
-  font-size: 0.5em;
-  display: inline-block;
-  padding: 0px 10px 0px 0px;
-}
-
 .post-footer .share a {
   font-size: 0.5em;
   display: inline-block;
   margin: 5px 5px 0px 0px;
-  background-color: #BBC7CC;
+  background-color: #677279;
   padding: 5px 10px;
   border-radius: 2px;
   color: #fff;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .post-footer .share a:hover {
@@ -262,6 +301,32 @@ input {
   line-height: 1.5;
 }
 
+
+/*
+* author
+*/
+
+.author-profile {
+  min-height: 150px;
+  margin-bottom: 50px;
+}
+
+.author-photo {
+  float: left;
+  border-radius: 300px;
+  width: 150px;
+  margin-right: 25px;
+}
+
+.author-stats {
+  font-size: 50%;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.author-meta {
+  font-size: 70%;
+}
 
 /* desktop size */
 @media only screen and (min-width: 960px) {

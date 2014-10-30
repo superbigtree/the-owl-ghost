@@ -1,0 +1,63 @@
+{{!< default}}
+
+{{#author}}
+  <section class="author-profile inner">
+      {{#if image}}
+      <img src="{{image}}" class="author-photo">
+      {{/if}}
+
+      <h1 class="author-title">
+        {{name}}
+        <span class="author-stats">
+          <i class="icon-stats"></i> 
+          {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}}
+        </span>
+      </h1>
+      
+      <p class="author-bio">{{bio}}</p>
+      <div class="author-meta">
+          {{#if location}}
+            <span class="author-location icon-location">{{location}}</span>
+          {{/if}}
+          <br>
+          {{#if website}}
+            <span class="author-link icon-link">
+              <a href="{{website}}">{{website}}</a>
+            </span>
+          {{/if}}
+          
+      </div>
+  </section>
+{{/author}}
+
+{{! Each post will be output using this markup }}
+<div class="posts">
+  <h2>{{author.name}}'s posts:</h2>
+  
+  {{#foreach posts}}
+  <article class="{{post_class}}">
+    
+    {{#if image}}
+    <a href="{{url}}"><img src="{{image}}" class="post-image"></a>
+    {{/if}}
+    
+    <span class="post-meta">
+      <time datetime="{{date format='YYYY-MM-DD'}}">
+        {{date format="DD MMM YYYY"}}
+      </time>
+      {{#if tags}}in {{tags}}{{/if}}
+      {{#if author}}by {{author}}{{/if}}
+    </span>
+    
+    <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
+    
+    <div class="post-excerpt">
+      <p>{{excerpt}}</p>
+    </div>
+    
+  </article>
+  {{/foreach}}
+</div>
+
+{{!! After all the posts, we have the previous/next pagination links }}
+{{pagination}}
